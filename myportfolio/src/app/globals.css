@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script:wght@400&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+
+  /* fonts */
+  --font-plus-jakarta-sans: 'Plus Jakarta Sans';
+  --font-kaushan-script: 'Kaushan Script';
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-3xl: 1.38rem;
+
+  /* Colors */
+  --color-darkslateblue: #693b93;
+  --color-white: #fff;
+  --color-midnightblue: #2c1250;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-xl: 1.25rem;
+  --gap-22xl: 2.56rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+
+}
