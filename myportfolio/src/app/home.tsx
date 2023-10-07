@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./css/home1.module.css";
+import Link from "next/link";
+
 
 const Home1: NextPage = () => {
     return (
@@ -8,9 +10,15 @@ const Home1: NextPage = () => {
                 <div className={styles.header}>
                     <img className={styles.logoIcon} alt="" src="/icons/logo.png" />
                     <div className={styles.navbar}>
-                        <div className={styles.home}>Home</div>
-                        <div className={styles.home}>About</div>
-                        <div className={styles.home}>Resume</div>
+                        <Link href={"/"} className={styles.navlink}>
+                            <div className={styles.home}>Home</div>
+                        </Link>
+                        <Link href={"/about"} className={styles.navlink}>
+                            <div className={styles.home}>About</div>
+                        </Link>
+                        <Link href={"/resume"} className={styles.navlink}>
+                            <div className={styles.home}>Resume</div>
+                        </Link>
                     </div>
                 </div>
                 <div className={styles.profile}>
@@ -30,98 +38,98 @@ const Home1: NextPage = () => {
                         </p>
                     </div>
                     <div className={styles.btnaboutme}>
-              {/*          <div className={styles.btn} />*/}
-              {/*          <div className={styles.aboutMe}>*/}
-              {/*<span className={styles.aboutMeTxtContainer}>*/}
-              {/*  <b className={styles.aboutMe1}>About me</b>*/}
-              {/*  <span className={styles.span}>{` `}</span>*/}
-              {/*</span>*/}
-              {/*          </div>*/}
-                        <button className="btn-shine button">
-                            <span>Shine</span>
+                        <button className={`${styles.btnShine} ${styles.aboutMe}`}>
+                            <span><b className={styles.aboutMe1}>About me</b></span>
                         </button>
                     </div>
-                    <img
-                        className={styles.scrollDownIcon}
-                        alt=""
-                        src="/icons/Scroll_Down.png"
-                    />
+                    <div className={styles.scrollDownAnimated}>
+                        <img
+                            className={styles.scrollDownIcon}
+                            alt=""
+                            src="/icons/Scroll_Down.png"
+                        />
+                    </div>
                 </div>
             </div>
             <div className={styles.secondblock}>
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
-                        <div className={styles.circle} />
-                        <img
-                            className={styles.fastForwardIcon}
-                            alt=""
-                            src="/icons/Fast_Forward.png"
-                        />
+                        <div className={styles.circle}>
+                            <img
+                                className={styles.circleInsideIcon}
+                                alt=""
+                                src="/icons/Fast_Forward.png"
+                            />
+                        </div>
                     </div>
                     <div className={styles.icontxt}>
                         <div className={styles.icontitletxt}>
-              <span className={styles.aboutMeTxtContainer}>
-                <p className={styles.adaptableAndSwift}>
-                  Adaptable and swift, I grasp new concepts swiftly—always
-                  evolving to meet the demands of dynamic learning environments.
-                </p>
-                <p className={styles.blankLine}>&nbsp;</p>
-              </span>
+                            <b className={styles.icontitle}>Fast Learner</b>
+                            <p className={styles.adaptableAndSwift}>
+                                Adaptable and swift, I grasp new concepts swiftly—always
+                                evolving to meet the demands of dynamic learning environments.
+                            </p>
                         </div>
-                        <b className={styles.icontitle}>Fast Learner</b>
+
                     </div>
                 </div>
-                <div className={styles.topskill1}>
+                <div className={styles.topskill}>
                     <div className={styles.circleicon}>
-                        <div className={styles.circle} />
-                        <img className={styles.paintIcon} alt="" src="/icons/Paint.png" />
-                    </div>
-                    <div className={styles.icontxt1}>
-                        <div className={styles.icontitletxt1}>
-              <span className={styles.aboutMeTxtContainer}>
-                <p className={styles.adaptableAndSwift}>&nbsp;</p>
-                <p className={styles.adaptableAndSwift}>&nbsp;</p>
-                <p className={styles.blankLine}>
-                  In the realm of creativity, I sculpt imaginative wonders,
-                  breathing life into digital realms with innovative designs and
-                  boundary-pushing concepts—a visionary crafting a tapestry of
-                  limitless possibilities.
-                </p>
-              </span>
+                        <div className={styles.circle}>
+                            <img className={styles.circleInsideIcon} alt="" src="/icons/Paint.png" />
                         </div>
-                        <b className={styles.icontitle1}>CReative</b>
+                    </div>
+                    <div className={styles.icontxt}>
+                        <div className={styles.icontitletxt}>
+                            <b className={styles.icontitle}>CReative</b>
+                            <p className={styles.adaptableAndSwift}>
+                                In the realm of creativity, I sculpt imaginative wonders,
+                                breathing life into digital realms with innovative designs and
+                                boundary-pushing concepts—a visionary crafting a tapestry of
+                                limitless possibilities.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.topskill2}>
+                <div className={styles.topskill}>
                     <div className={styles.circleicon}>
-                        <div className={styles.circle} />
-                        <img className={styles.diamondIcon} alt="" src="/icons/Diamond.png" />
-                    </div>
-                    <div className={styles.icontxt2}>
-                        <div className={styles.icontitletxt2}>
-                            Meticulous in web development, I ensure pixel-perfect precision
-                            and flawless harmony in every line of code—a curator of a
-                            seamlessly crafted digital world.
+                        <div className={styles.circle}>
+                            <img className={styles.circleInsideIcon} alt="" src="/icons/Diamond.png" />
                         </div>
-                        <b className={styles.icontitle2}>attention to details</b>
+
+                    </div>
+                    <div className={styles.icontxt}>
+                        <div className={styles.icontitletxt}>
+                            <b className={styles.icontitle}>attention to details</b>
+                            <p className={styles.adaptableAndSwift}>
+                                Meticulous in web development, I ensure pixel-perfect precision
+                                and flawless harmony in every line of code—a curator of a
+                                seamlessly crafted digital world.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.topskill3}>
+                <div className={styles.topskill}>
                     <div className={styles.circleicon}>
-                        <div className={styles.circle} />
-                        <img
-                            className={styles.testTubeIcon}
-                            alt=""
-                            src="/icons/Test_Tube.png"
-                        />
-                    </div>
-                    <div className={styles.icontxt3}>
-                        <div className={styles.icontitletxt3}>
-                            Innovating in web development, I sculpt groundbreaking solutions,
-                            pushing boundaries to redefine digital landscapes—a pioneer
-                            crafting the future of the online realm.
+                        <div className={styles.circle}>
+                            <img
+                                className={styles.circleInsideIcon}
+                                alt=""
+                                src="/icons/TestTube.png"
+                            />
                         </div>
-                        <b className={styles.icontitle3}>innovante</b>
+
+                    </div>
+                    <div className={styles.icontxt}>
+                        <div className={styles.icontitletxt}>
+                            <b className={styles.icontitle}>innovante</b>
+                            <p className={styles.adaptableAndSwift}>
+                                Innovating in web development, I sculpt groundbreaking solutions,
+                                pushing boundaries to redefine digital landscapes—a pioneer
+                                crafting the future of the online realm.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -16,6 +16,8 @@ body {
   --font-size-17xl: 2.25rem;
   --font-size-11xl: 1.88rem;
   --font-size-3xl: 1.38rem;
+  --font-size-s: 0.75rem;
+    --font-size-2xl: 1.13rem;
 
   /* Colors */
   --color-darkslateblue: #693b93;
@@ -25,7 +27,7 @@ body {
   /* Gaps */
   --gap-3xs: 0.63rem;
   --gap-xl: 1.25rem;
-  --gap-22xl: 2.56rem;
+  --gap-22xl: 0.56rem;
 
   /* Paddings */
   --padding-xl: 1.25rem;
