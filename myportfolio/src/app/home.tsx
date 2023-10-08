@@ -136,19 +136,17 @@ const Home1: NextPage = () => {
             <div className={styles.thirdblock}>
                 <div className={styles.titleblock}>
                     <img className={styles.square1Icon} alt="" src="/icons/Square_1.png" />
-                    <img className={styles.square2Icon} alt="" src="/icons/Square_1.png" />
                     <div className={styles.tbtxt}>
-                        <p className={styles.projects}>
-                            <b className={styles.languagesIdesAnd}>projects</b>
-                        </p>
+                        <p className={styles.projects}>projects</p>
                         <p className={styles.thatIMade}>That I made</p>
                     </div>
+                    <img className={styles.square2Icon} alt="" src="/icons/Square_1.png" />
                 </div>
                 <div className={styles.projectblock}>
-                    <img className={styles.image1Icon} alt="" src="/icons/image_1.png" />
-                    <img className={styles.image2Icon} alt="" src="/icons/image_2.png" />
-                    <img className={styles.image3Icon} alt="" src="/icons/image_3.png" />
-                    <img className={styles.image4Icon} alt="" src="/icons/image_4.png" />
+                    <img className={styles.image1Icon} alt="" src="/image_1.png" />
+                    <img className={styles.image2Icon} alt="" src="/image_2.png" />
+                    <img className={styles.image3Icon} alt="" src="/image_3.jpg" />
+                    <img className={styles.image4Icon} alt="" src="/image_4.png" />
                 </div>
             </div>
             <div className={styles.forthblock}>

@@ -342,24 +342,27 @@
     font-size: var(--font-size-3xl);
 }
 .square1Icon {
-    position: absolute;
-    top: 0.25rem;
-    left: 0rem;
-    width: 5.64rem;
-    height: 5.64rem;
-    object-fit: cover;
+    /*position: absolute;*/
+    /*top: 0.25rem;*/
+    /*left: 0rem;*/
+    /*width: 5.64rem;*/
+    /*height: 5.64rem;*/
+    /*object-fit: cover;*/
 }
 .square2Icon {
-    position: absolute;
-    top: 0rem;
-    left: 34.19rem;
-    width: 5.64rem;
-    height: 5.64rem;
-    object-fit: cover;
+    /*position: absolute;*/
+    /*top: 0rem;*/
+    /*left: 34.19rem;*/
+    /*width: 5.64rem;*/
+    /*height: 5.64rem;*/
+    /*object-fit: cover;*/
 }
 .projects {
     margin-block-start: 0;
     margin-block-end: 10px;
+    font-weight: bold;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
 }
 .thatIMade {
     margin: 0;
@@ -368,35 +371,35 @@
     font-weight: 500;
 }
 .tbtxt {
-    position: absolute;
-    top: 0.32rem;
-    left: 12.63rem;
+    display: flex;
+    flex-direction: column;
 }
 .titleblock {
-    position: relative;
     width: 39.83rem;
     height: 5.89rem;
+    font-size: 1.88rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-3xs);
 }
 .image1Icon {
-    position: relative;
-    width: 43.69rem;
-    height: 20.81rem;
+    width: 45.69rem;
+    height: 21.81rem;
     object-fit: cover;
 }
 .image2Icon {
-    position: relative;
-    width: 33.31rem;
-    height: 22.06rem;
+    width: 40.31rem;
+    height: 20.06rem;
     object-fit: cover;
 }
 .image3Icon {
-    position: relative;
     width: 19.25rem;
-    height: 40.38rem;
+    height: 41.38rem;
     object-fit: cover;
 }
 .image4Icon {
-    position: relative;
     width: 51.5rem;
     height: 32.06rem;
     object-fit: cover;
@@ -409,21 +412,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 .thirdblock {
     align-self: stretch;
     height: 84.5rem;
-    overflow: hidden;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    /*padding: 3.5rem 30.13rem 0rem;*/
-    box-sizing: border-box;
-    font-size: var(--font-size-17xl);
+    gap: 3.25rem;
 }
 .languagesIdesAnd {
     letter-spacing: 0.22em;
