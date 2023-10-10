@@ -1,26 +1,14 @@
 import type { NextPage } from "next";
 import styles from "./css/home1.module.css";
 import Link from "next/link";
+import NavBar from "@/app/component/NavBar";
 
 
 const Home1: NextPage = () => {
     return (
         <div className={styles.portfolio}>
             <div className={styles.firstblock}>
-                <div className={styles.header}>
-                    <img className={styles.logoIcon} alt="" src="/icons/logo.png" />
-                    <div className={styles.navbar}>
-                        <Link href={"/"} className={styles.navlink}>
-                            <div className={styles.home}>Home</div>
-                        </Link>
-                        <Link href={"/about"} className={styles.navlink}>
-                            <div className={styles.home}>About</div>
-                        </Link>
-                        <Link href={"/resume"} className={styles.navlink}>
-                            <div className={styles.home}>Resume</div>
-                        </Link>
-                    </div>
-                </div>
+                {/*<NavBar />*/}
                 <div className={styles.profile}>
                     <img
                         className={styles.profileimgIcon}
@@ -135,12 +123,12 @@ const Home1: NextPage = () => {
             </div>
             <div className={styles.thirdblock}>
                 <div className={styles.titleblock}>
-                    <img className={styles.square1Icon} alt="" src="/icons/Square_1.png" />
+                    <img alt="" src="/icons/Square_1.png" />
                     <div className={styles.tbtxt}>
                         <p className={styles.projects}>projects</p>
                         <p className={styles.thatIMade}>That I made</p>
                     </div>
-                    <img className={styles.square2Icon} alt="" src="/icons/Square_1.png" />
+                    <img alt="" src="/icons/Square_1.png" />
                 </div>
                 <div className={styles.projectblock}>
                     <img className={styles.image1Icon} alt="" src="/image_1.png" />
@@ -150,58 +138,39 @@ const Home1: NextPage = () => {
                 </div>
             </div>
             <div className={styles.forthblock}>
-                <div className={styles.titleblock2}>
-                    <div className={styles.tbtxt2}>
-                        <p className={styles.languagesIdesAndSoftwares}>
-                            <b className={styles.languagesIdesAnd}>
-                                Languages, ides and Softwares
-                            </b>
+                <div className={styles.titleblock}>
+                    <img alt="" src="/icons/Square_1.png" />
+                    <div className={styles.tbtxt}>
+                        <p className={styles.projects}>
+                            Languages, ides and Softwares
                         </p>
                         <p className={styles.thatIMade}>
                             That i use for coding and designing as well
                         </p>
                     </div>
-                    <img className={styles.square1Icon1} alt="" src="/icons/Square_1.png" />
-                    <img className={styles.square2Icon1} alt="" src="/icons/Square_1.png" />
+                    <img alt="" src="/icons/Square_1.png" />
                 </div>
                 <div className={styles.iconReactParent}>
-                    <img className={styles.iconReact} alt="" src="/icons/icon_react.png" />
-                    <img
-                        className={styles.iconReactNative}
-                        alt=""
-                        src="/icons/icon_React-native.png"
-                    />
-                    <img className={styles.iconJs} alt="" src="/icons/icon_JS.png" />
-                    <img className={styles.iconJs} alt="" src="/icons/icon_TS.png" />
-                    <img className={styles.iconNodejs} alt="" src="/icons/icon_Nodejs.png" />
-                    <img className={styles.iconNextjs} alt="" src="/icons/icon_Nextjs.png" />
-                    <img className={styles.iconJs} alt="" src="/icons/icon_php.png" />
-                    <img className={styles.iconPython} alt="" src="/icons/icon_Python.png" />
-                    <img className={styles.iconDocker} alt="" src="/icons/icon_docker.png" />
-                    <img className={styles.iconVscode} alt="" src="/icons/icon_vscode.png" />
-                    <img className={styles.iconNodejs} alt="" src="/icons/icon_WebStorm.png" />
-                    <img className={styles.iconNodejs} alt="" src="/icons/icon_pycharm.png" />
-                    <img className={styles.iconFigma} alt="" src="/icons/icon_Figma.png" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height={120} width={120} />
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height={120} width={120}/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height={120} width={120} />
+                    <img className={styles.iconNodejs} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height={120} width={120} />
+                    <i className="devicon-nextjs-original-wordmark" style={{fontSize:"9rem"}}></i>
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height={120} width={120} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height={120} width={120}  />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height={120} width={120} />
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height={120} width={120} />
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height={120} width={120}/>
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height={120} width={120}/>
+
                 </div>
             </div>
-            <div className={styles.footer}>
-                <div className={styles.github}>
-                    <img
-                        className={styles.githubLogoIcon}
-                        alt=""
-                        src="/icons/GitHub_logo.png"
-                    />
-                    <div className={styles.footericontxt}>Github</div>
-                </div>
-                <div className={styles.linkedin}>
-                    <img
-                        className={styles.githubLogoIcon}
-                        alt=""
-                        src="/icons/linkedin_logo.png"
-                    />
-                    <div className={styles.footericontxt}>LinkedIn</div>
-                </div>
-            </div>
+
         </div>
     );
 };

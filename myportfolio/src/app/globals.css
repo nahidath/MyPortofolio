@@ -23,6 +23,7 @@ body {
   --color-darkslateblue: #693b93;
   --color-white: #fff;
   --color-midnightblue: #2c1250;
+  --color-bckg-global:#11071f;
 
   /* Gaps */
   --gap-3xs: 0.63rem;

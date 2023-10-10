@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Footer from "@/app/component/Footer";
+import NavBar from "@/app/component/NavBar";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+        <head>
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+            </link>
+        </head>
+          <body className={inter.className}>
+          <NavBar/>
+          {children}
+          <Footer/>
+          </body>
     </html>
   )
 }
