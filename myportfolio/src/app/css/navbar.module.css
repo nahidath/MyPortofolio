@@ -9,6 +9,10 @@
     position: absolute;
     z-index: 100;
     width: 100%;
+    @media (max-width: 768px) {
+        gap: 0rem;
+    }
+
 }
 .logoIcon {
     position: relative;
@@ -28,11 +32,7 @@
     padding: 0rem 0.94rem 0rem 0rem;
 }
 
-.navlink{
-    text-decoration: none;
-}
-
-.navlink:hover{
+.navlinkTxt:hover{
     text-decoration: underline #fff 2px;
     text-underline-position: under;
 
@@ -40,7 +40,7 @@
 
 .navlinkTxt {
     position: relative;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.12em;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -50,4 +50,5 @@
     flex-shrink: 0;
     color: #fff;
     font-family: var(--font-plus-jakarta-sans);
+    text-decoration: none;
 }

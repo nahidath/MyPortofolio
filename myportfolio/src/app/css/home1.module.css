@@ -223,13 +223,16 @@
     justify-content: center;
     /*padding: 0rem 0rem var(--padding-xl);*/
     gap: 2.94rem;
-    background-image: url('../../../public/bckg.png');
+    background-image: url('../../../public/bckg2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     min-height: 100vh;
     border-collapse: collapse;
     padding-top: 4.31rem;
+    @media (max-width: 768px) {
+        padding-top: 0rem;
+    }
 }
 .circle {
     top: 0rem;
@@ -324,7 +327,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: var(--gap-3xs);
     min-width: fit-content;
 }
@@ -357,6 +360,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    column-gap: 2.69rem;
 }
 .thirdblock {
     align-self: stretch;
@@ -450,7 +454,10 @@
     font-size: var(--font-size-xl);
     color: var(--color-white);
     font-family: var(--font-plus-jakarta-sans);
-    padding-bottom: 3.25rem;
+    padding-bottom: 11.25rem;
+    @media (max-width: 768px) {
+        padding-bottom: 0rem;
+    }
 }
 
 .iconNodejs{

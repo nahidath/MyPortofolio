@@ -9,14 +9,14 @@ const NavBar:NextPage = () => {
         <div className={styles.header}>
             <img className={styles.logoIcon} alt="" src="/icons/logo.png" />
             <div className={styles.navbar}>
-                <Link href={"/"} className={styles.navlink}>
-                    <div className={styles.navlinkTxt }>Home</div>
+                <Link href={"/"} className={styles.navlinkTxt}>
+                    Home
                 </Link>
-                <Link href={"/about"} className={styles.navlink}>
-                    <div className={styles.navlinkTxt }>About</div>
+                <Link href={"/about"} className={styles.navlinkTxt}>
+                   About
                 </Link>
-                <Link href={"/resume"} className={styles.navlink}>
-                    <div className={styles.navlinkTxt }>Resume</div>
+                <Link href={"/resume"} className={styles.navlinkTxt}>
+                    Resume
                 </Link>
             </div>
         </div>

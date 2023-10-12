@@ -1,0 +1,30 @@
+.resumePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-bckg-global);
+    color: white;
+    font-family: var(--font-plus-jakarta-sans);
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    text-align: center;
+    overflow-x: hidden;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.resumeTitle{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.resumePdf{
+    width: 100%;
+    height: 100%;
+}
