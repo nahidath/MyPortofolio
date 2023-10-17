@@ -12,12 +12,12 @@ const Page: NextPage = () => {
                 <div className={styles.aboutsidertxt}>
                     <div className={styles.aboutsidertitle}>About me</div>
                     <div className={styles.aboutsidertxt1}>
-                        I am a fullstack web developer, I have a passion for web development and love to create for web and mobile devices.<br/>
+                        Hi, I'm Nahidath and I am a fullstack web developer.<br/>I have a passion for web development and love to create for web and mobile devices.<br/>
                         I am a fast learner and I am always looking for new challenges.<br/>
                         I am currently looking for a job as a fullstack web developer.
                     </div>
                     <div className={styles.aboutsidertxt2}>
-                        <div className={styles.aboutsidertxt2title}>Contact me at  <Link href={"mailto:gassa.nahidath@gmail.com"}>gassa.nahidath@gmail.com</Link></div>
+                        <div className={styles.aboutsidertxt2title}>Contact me at  <Link className={styles.emailLink} href={"mailto:gassa.nahidath@gmail.com"}>gassa.nahidath@gmail.com</Link></div>
                     </div>
                 </div>
             </div>

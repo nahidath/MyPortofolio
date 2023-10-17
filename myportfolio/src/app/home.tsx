@@ -1,3 +1,4 @@
+'use client';
 import type { NextPage } from "next";
 import styles from "./css/home1.module.css";
 import Link from "next/link";
@@ -5,6 +6,10 @@ import NavBar from "@/app/component/NavBar";
 
 
 const Home1: NextPage = () => {
+    function goToAbout() {
+        window.location.href = "/about";
+    }
+
     return (
         <div className={styles.portfolio}>
             <div className={styles.firstblock}>
@@ -26,7 +31,7 @@ const Home1: NextPage = () => {
                         </p>
                     </div>
                     <div className={styles.btnaboutme}>
-                        <button className={`${styles.btnShine} ${styles.aboutMe}`}>
+                        <button className={`${styles.btnShine} ${styles.aboutMe}`} onClick={goToAbout} >
                             <span><b className={styles.aboutMe1}>About me</b></span>
                         </button>
                     </div>
@@ -131,10 +136,15 @@ const Home1: NextPage = () => {
                     <img alt="" src="/icons/Square_1.png" />
                 </div>
                 <div className={styles.projectblock}>
-                    <img className={styles.image1Icon} alt="" src="/image_1.png" />
-                    <img className={styles.image2Icon} alt="" src="/image_2.png" />
-                    <img className={styles.image3Icon} alt="" src="/image_3.jpg" />
-                    <img className={styles.image4Icon} alt="" src="/image_4.png" />
+                    <div className={styles.container1}>
+                        <img className={`${styles.image1Icon} ${styles.imgZoom}`} alt="" src="/image_1.png" />
+                        <div className={styles.overlay1}>
+                            <div className={styles.description1}>Hello world</div>
+                        </div>
+                    </div>
+                    <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
+                    <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
+                    <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
                 </div>
             </div>
             <div className={styles.forthblock}>

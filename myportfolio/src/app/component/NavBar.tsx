@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {NextPage} from "next";
 import styles from "@/app/css/navbar.module.css";
+import {FaArrowUpRightFromSquare} from "react-icons/fa6";
 
 
 
@@ -15,8 +16,8 @@ const NavBar:NextPage = () => {
                 <Link href={"/about"} className={styles.navlinkTxt}>
                    About
                 </Link>
-                <Link href={"/resume"} className={styles.navlinkTxt}>
-                    Resume
+                <Link href={"/resume.pdf"} target={"_blank"} className={styles.navlinkTxt}>
+                    Resume <FaArrowUpRightFromSquare  size={13} style={{marginLeft: 5}} color={"#fff"}/>
                 </Link>
             </div>
         </div>

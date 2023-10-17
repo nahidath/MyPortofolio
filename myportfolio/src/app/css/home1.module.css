@@ -331,6 +331,15 @@
     gap: var(--gap-3xs);
     min-width: fit-content;
 }
+
+.imgZoom {
+    transition: transform 0.2s;
+}
+
+.imgZoom:hover {
+    transform: scale(1.10);
+}
+
 .image1Icon {
     width: 45.69rem;
     height: 21.81rem;
@@ -350,6 +359,34 @@
     width: 51.5rem;
     height: 32.06rem;
     object-fit: cover;
+}
+
+.overlay1{
+    /*position: absolute;*/
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+    bottom: 0;
+    height: 100%;
+}
+.description1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
 }
 .projectblock {
     width: 89.94rem;

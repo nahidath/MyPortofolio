@@ -50,6 +50,7 @@
     line-height: 1.6;
     letter-spacing: 0.01em;
     width: 100%;
+    text-align: justify;
 }
 
 .aboutsiderimg{
@@ -65,4 +66,15 @@
     line-height: 1.6;
     letter-spacing: 0.01em;
     width: 100%;
+    padding-top: 1rem;
+}
+
+.emailLink{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.emailLink:hover{
+    text-decoration: underline;
+    text-underline-position: under;
 }
