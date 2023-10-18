@@ -143,7 +143,12 @@ const Home1: NextPage = () => {
                         </div>
                     </div>
                     <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
-                    <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
+                    <div className={styles.container1}>
+                        <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
+                        <div className={styles.overlay1}>
+                            <div className={styles.description1}>Hello world</div>
+                        </div>
+                    </div>
                     <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
                 </div>
             </div>

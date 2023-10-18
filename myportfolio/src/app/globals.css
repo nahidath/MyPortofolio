@@ -27,6 +27,7 @@ body {
   --color-white: #fff;
   --color-midnightblue: #2c1250;
   --color-bckg-global:#11071f;
+  --color-very-dark-grey: #1a1a1a;
 
   /* Gaps */
   --gap-3xs: 0.63rem;
