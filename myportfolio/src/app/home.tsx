@@ -138,18 +138,36 @@ const Home1: NextPage = () => {
                 <div className={styles.projectblock}>
                     <div className={styles.container1}>
                         <img className={`${styles.image1Icon} ${styles.imgZoom}`} alt="" src="/image_1.png" />
-                        <div className={styles.overlay1}>
-                            <div className={styles.description1}>Hello world</div>
+                        <div className={styles.middle}>
+                            <div className={styles.description1}>
+                                <div className={styles.titleDesc}>Find your game (F.Y.G)</div>
+                                <div className={styles.subDesc}>A web application that allows users to find games that they might like based on their preferences. Users can search for games by genre and platform. Users can also create an account to save games to their favorites list. <br/>
+                                <Link href={"https://github.com/nahidath/fyg"} target={"_blank"} className={styles.linkDesc} >Github</Link>  -  <Link href={"https://fyg-three.vercel.app/"} target={"_blank"} className={styles.linkDesc} >Website</Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
+                    <div className={styles.container1}>
+                        <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
+                        <div className={styles.middle}>
+                            <div className={styles.description1}>Hello world</div>
+                        </div>
+
+                    </div>
+
                     <div className={styles.container1}>
                         <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
-                        <div className={styles.overlay1}>
+                        <div className={styles.middle}>
                             <div className={styles.description1}>Hello world</div>
                         </div>
                     </div>
-                    <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
+                    <div className={styles.container1}>
+                        <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
+                        <div className={styles.middle}>
+                            <div className={styles.description1}>Hello world</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className={styles.forthblock}>

@@ -333,13 +333,11 @@
 }
 
 .imgZoom {
-    transition: transform 0.2s;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
 }
-
-.imgZoom:hover {
-    transform: scale(1.02);
-}
-
 .image1Icon {
     width: 45.69rem;
     height: 21.81rem;
@@ -363,36 +361,51 @@
 
 .container1 {
     position: relative;
-    overflow: hidden;
-    height: auto;
 }
 
-.overlay1{
+.middle{
     position: absolute;
     top: 0;
-    /*bottom: 100%;*/
-    /*right: 100%;*/
-    left: 100%;
-    background-color: var(--color-very-dark-grey);
-    overflow: hidden;
-    width: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
-    transition: left 0.2s;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
 }
 
 
-.container1:hover .overlay1 {
-    left: 50%;
+.container1:hover .imgZoom{
+    opacity: 0.3;
 }
+
+.container1:hover .middle {
+    opacity: 1;
+}
+
 .description1 {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%,-50%);
-    text-align: center;
+    padding: 1rem
+}
+
+.titleDesc{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.linkDesc{
+    text-decoration: underline #fff 2px;
+    text-underline-position: under;
+    color: white;
+    font-size: 20px;
 }
 .projectblock {
     width: 89.94rem;
