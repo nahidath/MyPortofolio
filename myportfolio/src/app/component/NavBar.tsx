@@ -10,7 +10,7 @@ import Image from "next/image";
 const NavBar:NextPage = () => {
     return (
         <div className={styles.header}>
-            <Image className={styles.logoIcon} alt={""} src={"/icons/logo.png"} />
+            <Image className={styles.logoIcon} alt={""} src={"/icons/logo.png"} width={54.08} height={54.08} />
             <div className={styles.navbar}>
                 <Link href={"/"} className={styles.navlinkTxt}>
                     Home

@@ -19,6 +19,8 @@ const Home1: NextPage = () => {
                         className={styles.profileimgIcon}
                         alt={""}
                         src={"/icons/profileimg.png"}
+                        width={186}
+                        height={186}
                     />
                     <div className={styles.profiletxt}>
                         <p className={styles.nahidathGassa}>Nahidath GASSA</p>
@@ -40,6 +42,8 @@ const Home1: NextPage = () => {
                             className={styles.scrollDownIcon}
                             alt={""}
                             src={"/icons/Scroll_Down.png"}
+                            width={84}
+                            height={84}
                         />
                     </div>
                 </div>
@@ -52,6 +56,9 @@ const Home1: NextPage = () => {
                                 className={styles.circleInsideIcon}
                                 alt={""}
                                 src={"/icons/Fast_Forward.png"}
+                                width={82}
+                                height={82}
+
                             />
                         </div>
                     </div>
@@ -69,7 +76,10 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Paint.png"} />
+                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Paint.png"}
+                            width={82}
+                            height={82}
+                            />
                         </div>
                     </div>
                     <div className={styles.icontxt}>
@@ -87,7 +97,10 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Diamond.png"} />
+                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Diamond.png"}
+                            width={82}
+                            height={82}
+                            />
                         </div>
 
                     </div>
@@ -109,6 +122,8 @@ const Home1: NextPage = () => {
                                 className={styles.circleInsideIcon}
                                 alt={""}
                                 src={"/icons/TestTube.png"}
+                                width={82}
+                                height={82}
                             />
                         </div>
 
@@ -128,16 +143,26 @@ const Home1: NextPage = () => {
             </div>
             <div className={styles.thirdblock}>
                 <div className={styles.titleblock}>
-                    <Image alt={""} src={"/icons/Square_1.png"} />
+                    <Image alt={""} src={"/icons/Square_1.png"}
+                    width={91}
+                    height={91}
+                    />
                     <div className={styles.tbtxt}>
                         <p className={styles.projects}>projects</p>
                         <p className={styles.thatIMade}>That I made</p>
                     </div>
-                    <Image alt={""} src={"/icons/Square_1.png"} />
+                    <Image alt={""} src={"/icons/Square_1.png"}
+                    width={91}
+                    height={91}
+                    />
                 </div>
                 <div className={styles.projectblock}>
                     <div className={styles.container1}>
-                        <Image className={`${styles.image1Icon} ${styles.imgZoom}`} alt={""} src={"/image_1.png"} />
+                        <Image className={`${styles.image1Icon} ${styles.imgZoom}`} alt={""} src={"/image_1.png"}
+                        width={731.96}
+                        height={348.96}
+
+                        />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Find your game (F.Y.G)</div>
@@ -148,7 +173,10 @@ const Home1: NextPage = () => {
                         </div>
                     </div>
                     <div className={styles.container1}>
-                        <Image className={`${styles.image2Icon} ${styles.imgZoom}`}alt={""} src={"/image_2.png"} />
+                        <Image className={`${styles.image2Icon} ${styles.imgZoom}`}alt={""} src={"/image_2.png"}
+                        width={644.96}
+                        height={348.96}
+                        />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Blind Test</div>
@@ -161,7 +189,9 @@ const Home1: NextPage = () => {
                     </div>
 
                     <div className={styles.container1}>
-                        <Image className={`${styles.image3Icon} ${styles.imgZoom}`}alt={""} src={"/image_3.jpg"} />
+                        <Image className={`${styles.image3Icon} ${styles.imgZoom}`}alt={""} src={"/image_3.jpg"}
+                               width={308} height={662.08}
+                        />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>MyRecipeApp</div>
@@ -172,7 +202,9 @@ const Home1: NextPage = () => {
                         </div>
                     </div>
                     <div className={styles.container1}>
-                        <Image className={`${styles.image4Icon} ${styles.imgZoom}`}alt={""} src={"/image_4.png"} />
+                        <Image className={`${styles.image4Icon} ${styles.imgZoom}`}alt={""} src={"/image_4.png"}
+                        width={824} height={512.96}
+                        />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Fast Typing Game (F.T.G)</div>
@@ -187,7 +219,8 @@ const Home1: NextPage = () => {
             </div>
             <div className={styles.forthblock}>
                 <div className={styles.titleblock}>
-                    <Image alt={""} src={"/icons/Square_1.png"} />
+                    <Image alt={""} src={"/icons/Square_1.png"}
+                    width={91} height={91}/>
                     <div className={styles.tbtxt}>
                         <p className={styles.projects}>
                             Languages, ides and Softwares
@@ -196,7 +229,8 @@ const Home1: NextPage = () => {
                             That i use for coding and designing as well
                         </p>
                     </div>
-                    <Image alt={""} src={"/icons/Square_1.png"} />
+                    <Image alt={""} src={"/icons/Square_1.png"}
+                    width={91} height={91}/>
                 </div>
                 <div className={styles.iconLanguages}>
                     <Link href={"https://reactjs.org/"} target={"_blank"} className={styles.linkLanguages} ><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"} height={120} width={120} /></Link>

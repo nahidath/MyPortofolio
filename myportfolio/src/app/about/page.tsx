@@ -8,7 +8,10 @@ const Page: NextPage = () => {
     return (
         <div className={styles.about}>
             <div className={styles.aboutsider}>
-                <Image className={styles.aboutsiderimg} alt={""} src={"/icons/profileimg.png"} />
+                <Image className={styles.aboutsiderimg} alt={""} src={"/icons/profileimg.png"}
+                width={300}
+                height={300}
+                />
                 <DividerV height={300}/>
                 <div className={styles.aboutsidertxt}>
                     <div className={styles.aboutsidertitle}>About me</div>
