@@ -13,7 +13,6 @@ const Home1: NextPage = () => {
     return (
         <div className={styles.portfolio}>
             <div className={styles.firstblock}>
-                {/*<NavBar />*/}
                 <div className={styles.profile}>
                     <img
                         className={styles.profileimgIcon}
@@ -150,7 +149,12 @@ const Home1: NextPage = () => {
                     <div className={styles.container1}>
                         <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
                         <div className={styles.middle}>
-                            <div className={styles.description1}>Hello world</div>
+                            <div className={styles.description1}>
+                                <div className={styles.titleDesc}>Blind Test</div>
+                                <div className={styles.subDesc}>A simple blind test made with ReactJS and Deezer API. This project was bootstrapped with Create React App.<br/>
+                                <Link href={"https://github.com/nahidath/Blind-Test"} target={"_blank"} className={styles.linkDesc} >Github</Link>  -  <Link href={"https://quiz-react-mu-liart.vercel.app/"} target={"_blank"} className={styles.linkDesc} >Website</Link>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -158,13 +162,23 @@ const Home1: NextPage = () => {
                     <div className={styles.container1}>
                         <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
                         <div className={styles.middle}>
-                            <div className={styles.description1}>Hello world</div>
+                            <div className={styles.description1}>
+                                <div className={styles.titleDesc}>MyRecipeApp</div>
+                                <div className={styles.subDesc}>A mobile app that allows you to search for recipes and see the ingredients and instructions. You can also save your favorite recipes.<br/>
+                                    <Link href={"https://github.com/nahidath/MyRecipeApp"} target={"_blank"} className={styles.linkDesc}>Github</Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.container1}>
                         <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
                         <div className={styles.middle}>
-                            <div className={styles.description1}>Hello world</div>
+                            <div className={styles.description1}>
+                                <div className={styles.titleDesc}>Fast Typing Game (F.T.G)</div>
+                                <div className={styles.subDesc}>A simple funny typing game made with ReactJS. This project was bootstrapped with Create React App.<br/>
+                                    <Link href={"https://github.com/nahidath/fast-typing-game"} target={"_blank"} className={styles.linkDesc} >Github</Link>  -  <Link href={"https://fast-typing-game.vercel.app/"} target={"_blank"} className={styles.linkDesc} >Website</Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -183,23 +197,23 @@ const Home1: NextPage = () => {
                     </div>
                     <img alt="" src="/icons/Square_1.png" />
                 </div>
-                <div className={styles.iconReactParent}>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height={120} width={120} />
+                <div className={styles.iconLanguages}>
+                    <Link href={"https://reactjs.org/"} target={"_blank"} className={styles.linkLanguages} ><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height={120} width={120} /></Link>
+                    <Link href={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height={120} width={120}/></Link>
+                    <Link href={"https://www.typescriptlang.org/"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height={120} width={120} /></Link>
+                    <Link href={"https://nodejs.org/en"} target={"_blank"} className={styles.linkLanguages}><img className={styles.iconNodejs} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height={120} width={120} /></Link>
+                    
+                    <Link href={"https://nextjs.org/"} target={"_blank"} className={styles.linkLanguages}><i className="devicon-nextjs-original-wordmark" style={{fontSize:"9rem", color:"#fff"}}></i></Link>
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height={120} width={120}/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height={120} width={120} />
-                    <img className={styles.iconNodejs} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height={120} width={120} />
-                    <i className="devicon-nextjs-original-wordmark" style={{fontSize:"9rem"}}></i>
+                    <Link href={"https://www.php.net/manual/en/intro-whatis.php"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height={120} width={120} /></Link>
+                    <Link href={"https://www.python.org/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height={120} width={120}  /></Link>
+                    <Link href={"https://www.docker.com/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height={120} width={120} /></Link>
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height={120} width={120} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height={120} width={120}  />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height={120} width={120} />
+                    <Link href={"https://code.visualstudio.com/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height={120} width={120} /></Link>
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height={120} width={120} />
+                    <Link href={"https://www.jetbrains.com/products/#type=ide"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height={120} width={120}/></Link>
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height={120} width={120}/>
-
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height={120} width={120}/>
+                    <Link href={"https://www.figma.com/fr/"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height={120} width={120}/></Link>
 
                 </div>
             </div>

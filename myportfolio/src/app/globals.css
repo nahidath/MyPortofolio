@@ -5,7 +5,9 @@ body {
   line-height: normal;
     @media (max-width: 768px) {
         font-size: 14px;
+      position: relative;
     }
+
 }
 :root {
 
