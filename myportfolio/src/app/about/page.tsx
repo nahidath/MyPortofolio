@@ -8,7 +8,7 @@ const Page: NextPage = () => {
     return (
         <div className={styles.about}>
             <div className={styles.aboutsider}>
-                <Image className={styles.aboutsiderimg} alt={""} src={"/icons/profileimg.png"}
+                <img className={styles.aboutsiderimg} alt={""} src={"/icons/profileImg.png"}
                 width={300}
                 height={300}
                 />

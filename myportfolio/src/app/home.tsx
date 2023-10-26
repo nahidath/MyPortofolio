@@ -18,7 +18,7 @@ const Home1: NextPage = () => {
                     <Image
                         className={styles.profileimgIcon}
                         alt={""}
-                        src={"/icons/profileimg.png"}
+                        src={"/icons/profileImg.png"}
                         width={186}
                         height={186}
                     />
@@ -56,8 +56,8 @@ const Home1: NextPage = () => {
                                 className={styles.circleInsideIcon}
                                 alt={""}
                                 src={"/icons/Fast_Forward.png"}
-                                width={82}
-                                height={82}
+                                width={82.4}
+                                height={82.4}
 
                             />
                         </div>
