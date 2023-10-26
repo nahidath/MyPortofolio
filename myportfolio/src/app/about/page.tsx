@@ -2,12 +2,13 @@ import styles from '../css/about.module.css'
 import {NextPage} from "next";
 import DividerV from "@/app/component/DividerV";
 import Link from "next/link";
+import Image from "next/image";
 
 const Page: NextPage = () => {
     return (
         <div className={styles.about}>
             <div className={styles.aboutsider}>
-                <img className={styles.aboutsiderimg} alt="" src="/icons/profileimg.png" />
+                <Image className={styles.aboutsiderimg} alt={""} src={"/icons/profileimg.png"} />
                 <DividerV height={300}/>
                 <div className={styles.aboutsidertxt}>
                     <div className={styles.aboutsidertitle}>About me</div>

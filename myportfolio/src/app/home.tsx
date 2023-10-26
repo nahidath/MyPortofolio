@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import styles from "./css/home1.module.css";
 import Link from "next/link";
 import NavBar from "@/app/component/NavBar";
+import Image from "next/image";
 
 
 const Home1: NextPage = () => {
@@ -14,10 +15,10 @@ const Home1: NextPage = () => {
         <div className={styles.portfolio}>
             <div className={styles.firstblock}>
                 <div className={styles.profile}>
-                    <img
+                    <Image
                         className={styles.profileimgIcon}
-                        alt=""
-                        src="/icons/profileimg.png"
+                        alt={""}
+                        src={"/icons/profileimg.png"}
                     />
                     <div className={styles.profiletxt}>
                         <p className={styles.nahidathGassa}>Nahidath GASSA</p>
@@ -35,10 +36,10 @@ const Home1: NextPage = () => {
                         </button>
                     </div>
                     <div className={styles.scrollDownAnimated}>
-                        <img
+                        <Image
                             className={styles.scrollDownIcon}
-                            alt=""
-                            src="/icons/Scroll_Down.png"
+                            alt={""}
+                            src={"/icons/Scroll_Down.png"}
                         />
                     </div>
                 </div>
@@ -47,10 +48,10 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <img
+                            <Image
                                 className={styles.circleInsideIcon}
-                                alt=""
-                                src="/icons/Fast_Forward.png"
+                                alt={""}
+                                src={"/icons/Fast_Forward.png"}
                             />
                         </div>
                     </div>
@@ -68,7 +69,7 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <img className={styles.circleInsideIcon} alt="" src="/icons/Paint.png" />
+                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Paint.png"} />
                         </div>
                     </div>
                     <div className={styles.icontxt}>
@@ -86,7 +87,7 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <img className={styles.circleInsideIcon} alt="" src="/icons/Diamond.png" />
+                            <Image className={styles.circleInsideIcon} alt={""} src={"/icons/Diamond.png"} />
                         </div>
 
                     </div>
@@ -104,10 +105,10 @@ const Home1: NextPage = () => {
                 <div className={styles.topskill}>
                     <div className={styles.circleicon}>
                         <div className={styles.circle}>
-                            <img
+                            <Image
                                 className={styles.circleInsideIcon}
-                                alt=""
-                                src="/icons/TestTube.png"
+                                alt={""}
+                                src={"/icons/TestTube.png"}
                             />
                         </div>
 
@@ -127,16 +128,16 @@ const Home1: NextPage = () => {
             </div>
             <div className={styles.thirdblock}>
                 <div className={styles.titleblock}>
-                    <img alt="" src="/icons/Square_1.png" />
+                    <Image alt={""} src={"/icons/Square_1.png"} />
                     <div className={styles.tbtxt}>
                         <p className={styles.projects}>projects</p>
                         <p className={styles.thatIMade}>That I made</p>
                     </div>
-                    <img alt="" src="/icons/Square_1.png" />
+                    <Image alt={""} src={"/icons/Square_1.png"} />
                 </div>
                 <div className={styles.projectblock}>
                     <div className={styles.container1}>
-                        <img className={`${styles.image1Icon} ${styles.imgZoom}`} alt="" src="/image_1.png" />
+                        <Image className={`${styles.image1Icon} ${styles.imgZoom}`} alt={""} src={"/image_1.png"} />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Find your game (F.Y.G)</div>
@@ -147,7 +148,7 @@ const Home1: NextPage = () => {
                         </div>
                     </div>
                     <div className={styles.container1}>
-                        <img className={`${styles.image2Icon} ${styles.imgZoom}`} alt="" src="/image_2.png" />
+                        <Image className={`${styles.image2Icon} ${styles.imgZoom}`}alt={""} src={"/image_2.png"} />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Blind Test</div>
@@ -160,7 +161,7 @@ const Home1: NextPage = () => {
                     </div>
 
                     <div className={styles.container1}>
-                        <img className={`${styles.image3Icon} ${styles.imgZoom}`} alt="" src="/image_3.jpg" />
+                        <Image className={`${styles.image3Icon} ${styles.imgZoom}`}alt={""} src={"/image_3.jpg"} />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>MyRecipeApp</div>
@@ -171,7 +172,7 @@ const Home1: NextPage = () => {
                         </div>
                     </div>
                     <div className={styles.container1}>
-                        <img className={`${styles.image4Icon} ${styles.imgZoom}`} alt="" src="/image_4.png" />
+                        <Image className={`${styles.image4Icon} ${styles.imgZoom}`}alt={""} src={"/image_4.png"} />
                         <div className={styles.middle}>
                             <div className={styles.description1}>
                                 <div className={styles.titleDesc}>Fast Typing Game (F.T.G)</div>
@@ -186,7 +187,7 @@ const Home1: NextPage = () => {
             </div>
             <div className={styles.forthblock}>
                 <div className={styles.titleblock}>
-                    <img alt="" src="/icons/Square_1.png" />
+                    <Image alt={""} src={"/icons/Square_1.png"} />
                     <div className={styles.tbtxt}>
                         <p className={styles.projects}>
                             Languages, ides and Softwares
@@ -195,25 +196,25 @@ const Home1: NextPage = () => {
                             That i use for coding and designing as well
                         </p>
                     </div>
-                    <img alt="" src="/icons/Square_1.png" />
+                    <Image alt={""} src={"/icons/Square_1.png"} />
                 </div>
                 <div className={styles.iconLanguages}>
-                    <Link href={"https://reactjs.org/"} target={"_blank"} className={styles.linkLanguages} ><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height={120} width={120} /></Link>
-                    <Link href={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height={120} width={120}/></Link>
-                    <Link href={"https://www.typescriptlang.org/"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height={120} width={120} /></Link>
-                    <Link href={"https://nodejs.org/en"} target={"_blank"} className={styles.linkLanguages}><img className={styles.iconNodejs} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height={120} width={120} /></Link>
+                    <Link href={"https://reactjs.org/"} target={"_blank"} className={styles.linkLanguages} ><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"} height={120} width={120} /></Link>
+                    <Link href={"https://developer.mozilla.org/en-US/docs/Web/JavaScript"} target={"_blank"} className={styles.linkLanguages}> <Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"} height={120} width={120}/></Link>
+                    <Link href={"https://www.typescriptlang.org/"} target={"_blank"} className={styles.linkLanguages}> <Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"} height={120} width={120} /></Link>
+                    <Link href={"https://nodejs.org/en"} target={"_blank"} className={styles.linkLanguages}><Image alt={""} className={styles.iconNodejs} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"} height={120} width={120} /></Link>
                     
                     <Link href={"https://nextjs.org/"} target={"_blank"} className={styles.linkLanguages}><i className="devicon-nextjs-original-wordmark" style={{fontSize:"9rem", color:"#fff"}}></i></Link>
 
-                    <Link href={"https://www.php.net/manual/en/intro-whatis.php"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height={120} width={120} /></Link>
-                    <Link href={"https://www.python.org/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height={120} width={120}  /></Link>
-                    <Link href={"https://www.docker.com/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height={120} width={120} /></Link>
+                    <Link href={"https://www.php.net/manual/en/intro-whatis.php"} target={"_blank"} className={styles.linkLanguages}><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"} height={120} width={120} /></Link>
+                    <Link href={"https://www.python.org/"} target={"_blank"} className={styles.linkLanguages}><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"} height={120} width={120}  /></Link>
+                    <Link href={"https://www.docker.com/"} target={"_blank"} className={styles.linkLanguages}><Image alt="docker" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"} height={120} width={120} /></Link>
 
-                    <Link href={"https://code.visualstudio.com/"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height={120} width={120} /></Link>
+                    <Link href={"https://code.visualstudio.com/"} target={"_blank"} className={styles.linkLanguages}><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"} height={120} width={120} /></Link>
 
-                    <Link href={"https://www.jetbrains.com/products/#type=ide"} target={"_blank"} className={styles.linkLanguages}><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height={120} width={120}/></Link>
+                    <Link href={"https://www.jetbrains.com/products/#type=ide"} target={"_blank"} className={styles.linkLanguages}><Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg"} height={120} width={120}/></Link>
 
-                    <Link href={"https://www.figma.com/fr/"} target={"_blank"} className={styles.linkLanguages}> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height={120} width={120}/></Link>
+                    <Link href={"https://www.figma.com/fr/"} target={"_blank"} className={styles.linkLanguages}> <Image alt={""} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"} height={120} width={120}/></Link>
 
                 </div>
             </div>

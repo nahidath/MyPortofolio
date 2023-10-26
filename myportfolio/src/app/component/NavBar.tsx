@@ -2,13 +2,15 @@ import Link from "next/link";
 import {NextPage} from "next";
 import styles from "@/app/css/navbar.module.css";
 import {FaArrowUpRightFromSquare} from "react-icons/fa6";
+import Image from "next/image";
+
 
 
 
 const NavBar:NextPage = () => {
     return (
         <div className={styles.header}>
-            <img className={styles.logoIcon} alt="" src="/icons/logo.png" />
+            <Image className={styles.logoIcon} alt={""} src={"/icons/logo.png"} />
             <div className={styles.navbar}>
                 <Link href={"/"} className={styles.navlinkTxt}>
                     Home
