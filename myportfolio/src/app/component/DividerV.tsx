@@ -1,4 +1,4 @@
-import styles from '../css/dividerV.module.css'
+import styles from '../css/dividerv.module.css'
 
 interface DividerVProps {
     height?: number;
