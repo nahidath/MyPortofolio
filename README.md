@@ -43,4 +43,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-This portfolio is deployed on [Vercel](https://my-portofolio-rust.vercel.app/). To deploy your own, click the button below.
+This portfolio is deployed on [Vercel](https://my-portofolio-rust.vercel.app/).
