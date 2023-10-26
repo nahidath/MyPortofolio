@@ -16,7 +16,7 @@ const Page: NextPage = () => {
                 <div className={styles.aboutsidertxt}>
                     <div className={styles.aboutsidertitle}>About me</div>
                     <div className={styles.aboutsidertxt1}>
-                        Hi, I'm Nahidath and I am a fullstack web developer.<br/>I have a passion for web development and love to create for web and mobile devices.<br/>
+                        Hi, my name is Nahidath and I am a fullstack web developer.<br/>I have a passion for web development and love to create for web and mobile devices.<br/>
                         I am a fast learner and I am always looking for new challenges.<br/>
                         I am speaking French and English.<br/>
                         I am currently living in Paris, France.<br/>
